@@ -1,4 +1,7 @@
-language:javascript
-rvm:
-  - 1.0.0
-script:npm run build
+language:node_js
+node_js:
+  - "stable"
+install:
+  - npm install
+script:
+  - npm run build
